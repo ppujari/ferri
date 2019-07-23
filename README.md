@@ -13,7 +13,7 @@ In part-2, I have designed code to use deep learning to classify images, but thi
 Second problem I found is images has multiple objects in it. So, simple image classification may not work. In this cases, object detection will give better result. Object detection in OpneCV also requires few labelled images, which is not given in this home-work.
 
 ### What are the cases your solution covers, how are they covered and why are they important?
-It covers all the cases, I believe, my only concern is accuracy. It can be improved, by training a word2vec model with eCommerce training data. Better alogrithm for finidng threshhold value which determines "Others" category.
+It covers all the cases, I believe, my only concern is accuracy. It can be improved, by training a word2vec model with eCommerce training data. Better alogrithm to find a good threshhold value which determines "Others" category.
 
 ### What are the cases your solution does not cover and what are the ways you can extend your current solution for them?
 
