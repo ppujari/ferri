@@ -1,8 +1,10 @@
 # product calssification challenge
 This problemis simple but yet complex. Lack of labelled data add to complexity. So, I rely on pretrained models. The approach here
 is ensemble method. Predict on the basis of 1) product description and 2) use image to classify. Then take the average.
-Run Jupyter Notebook product_classification.ipynb
-Output file after classification is classified_product_data.json
+
+* Run Jupyter Notebook product_classification.ipynb
+
+* Output file after classification is classified_product_data.json
 
 ### Why are you designing the solution in this way?
 More of NLP algorithms are moving towards deep learning. For this problem, however, I unable to leverage deep learning. Deep learning needs more data for training. Also, I did not find any pretrained models for eCommerce ( fashion or beauty ). There is no public data set available. So, I have choosen text classification word embeddings approach. Good pretrained word embedings are available in open source community. 
